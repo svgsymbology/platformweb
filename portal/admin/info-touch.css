@@ -1,0 +1,317 @@
+
+.icon {
+    font-family: "symbology-icons";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color:#0178af;	  
+    speak: none;
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
+}
+
+.icon:hover {
+    color: #5ea9cc !important;
+}
+
+.noSpace{
+    margin:0px;
+    padding:0px;
+}
+
+.cntIcon{
+    font-family: "symbology-icons";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px !important;
+    color:#0178af;	  
+    speak: none;
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); 
+}            
+
+.headIcon{
+    font-family: "symbology-icons";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color:#0178af;	  
+    speak: none;
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); 
+}      
+            
+.gradient{
+    background: #ffffff url("https://cdn.jsdelivr.net/gh/svgsymbology/platformweb/images/page/symbology-gradient.png") 0px 0px no-repeat;
+    background-image: linear-gradient(to right, #c0deeb, #ffffff);
+    color:#0178af;
+    font-size:12px;
+}  
+            
+.boldblue{
+    color:#0178af !important;
+    font-weight:bold !important;
+    font-size:12px;
+    font-family: 'serif';
+}              
+
+.left{
+    color:#0178af !important;
+    text-align: left !important;
+}
+
+.right{
+    color:#0178af !important;
+    text-align: right !important;
+    font-weight:normal !important;
+}
+
+.frmTable{padding:0px;width:1110px;margin-bottom:0px;}
+.cntTable{padding-top:0px;padding-bottom:0px;width:1080px;}
+.mainheading {font-weight:bold;color:#0178af;font-size:30px;text-align:center;page-break-before: always;}
+.heading {font-weight:bold;color:#0178af;font-size:20px;text-align:center;}
+.index {vertical-align:top;font-weight:bold;color:#0178af;padding-top:10px;width:80px;}            
+.cntnt {color:#0178af;padding:0px;font-size:12px;}
+
+.txt {color:#0178af;padding:10px;padding-bottom:0px;font-size:12px;}            
+.txtNoPad {color:#0178af;padding:0px;font-size:12px;}
+.txtNoBottom {color:#0178af;padding-top:10px;padding-bottom:0px;font-size:12px;}
+
+.main {color:#0178af;font-size:12px;}
+.empasis {font-weight:bold;color:#0178af;}
+.symbol{color:#0178af;font-size:20px;}
+.smallsymbol{color:#0178af;font-size:12px;}
+.listing{text-align:center;}
+.return {width:50px;text-align: right;}
+.picture{text-align:center;}
+.rounded{
+    width:1100px;
+    display: flex;
+    background-color: #d7eaf2;
+    border-radius: 15px;
+}
+.gradient{
+    background: #ffffff url("https://cdn.jsdelivr.net/gh/svgsymbology/platformweb/images/page/symbology-gradient.png") 0px 0px no-repeat;
+    background-image: linear-gradient(to right, #c0deeb, #ffffff);
+    color:#0178af;
+    font-size:12px;
+}             
+.greengradient{
+    background: #ffffff url("https://cdn.jsdelivr.net/gh/svgsymbology/platformweb/images/page/symbology-green-gradient.png") 0px 0px no-repeat;
+    background-image: linear-gradient(to right, #ACD6AC, #ffffff);
+    color:green;
+    font-size:12px;
+}               
+.orangegradient{
+    background: #ffffff url("https://cdn.jsdelivr.net/gh/svgsymbology/platformweb/images/page/symbology-orange-gradient.png") 0px 0px no-repeat;
+    background-image: linear-gradient(to right, #fdd3b6, #ffffff);
+    color:#e96208;
+    font-size:12px;
+}                           
+
+.prtPub{
+    width:100%;
+}
+.trans{
+    opacity: 0.5;
+    color: rgba(0, 0, 0, 0.0);
+}
+
+div {
+    display:block; 
+}
+.pbBefore{
+    page-break-before: always;
+}            
+
+.lighten:hover{
+    filter: brightness(120%);
+}
+.pgCol{
+    vertical-align: top;                
+}
+.numCol{
+    width:30px;
+    vertical-align: top;
+}
+.headCol{
+    vertical-align: top;
+}
+.mech{
+    vertical-align: top;
+}
+.cntCol{
+    padding:0px;
+}
+.cntTbl{
+    margin:0px;
+}            
+.circle {
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    padding-top: 2px;
+    padding-right: 2px;
+    background: #0178af;
+    color: #ffffff;
+    text-align: center;
+    font-weight:bold;
+    font: 10px sans-serif;
+}
+.pgCircle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding-top: 3px;
+    padding-right: 3px;
+    background: #0178af;
+    color: #ffffff;
+    text-align: center;
+    font-weight:bold;
+    font: 14px sans-serif;
+}
+.roundTBL{
+    border-radius:6px;
+    -moz-border-radius:6px;                
+}
+.center {
+    margin-top:5px !important;                
+    margin: auto;
+    vertical-align:middle;
+    padding: 10px;
+    color:#0178af !important;                
+}   
+.repoCenter{
+    margin: auto;
+    vertical-align:middle;
+    padding: 0px;
+    padding-left:10px;
+    color:#0178af !important;                                
+}
+.top-text{
+    vertical-align:top;
+    padding-top:10px;
+}
+.conHeight{
+    height:28px;
+}
+.compHeight{
+    height:30px;
+}
+.roleSymbol {
+    width:80px;
+    padding-left:20px;
+}
+ul.circle {
+    list-style-type: circle;
+}
+ul.circle li{
+    padding-bottom:5px;
+}
+ul.square {
+    padding-top:5px;
+    list-style-type: square;
+}
+ol.ur {
+    padding-top:5px;
+    list-style-type: upper-roman;
+}
+ol.la {
+    padding-top:5px;
+    list-style-type: lower-alpha;
+}
+
+.phase{
+    color:green;
+}
+.tasking{
+    color:#e96208;
+}
+.wfContent{
+    text-align: left !important;
+}
+.platLeft{
+    padding-left:6px;
+}
+.util-views{
+    padding-left:50px;
+}
+.roleAnchor{
+    font-weight:bold;
+    text-decoration: none;
+    color :#0178af !important;
+}
+.selectRoleAnchor{
+    font-weight:bold;
+    text-decoration: none;
+    color :red !important;
+}            
+
+.link{
+    color:#0178af !important;
+    font-weight:bold !important;
+    font-size:12px !important;
+    font-family: 'serif';
+    margin-right:5px;
+}            
+
+a:active {
+    outline-color: #0178af !important;
+    border-style: solid;
+    border-color: #0178af !important;
+    border-width: 2px;                
+}
+
+.table{
+    border: 4px solid #0178af;
+    border-radius: 10px;
+}
+
+.tblHeader{
+    color:#0178af;
+    font-weight:bold;
+    font-size:18px;
+    background-color:#c0e7f9;
+    border-radius: 5px;
+}
+
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    border-radius:15px;
+}
+
+#mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #0178af;
+    color: #fff;
+}
